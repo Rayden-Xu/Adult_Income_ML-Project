@@ -11,6 +11,9 @@
 - All we know that We are naked in Big data society, The user information are collected in every APP and Website includes data on age, gender, country of origin, marital status,marriage, education etc.) when we login in to them.
 - Typically, all of this information(Data Asset) would be widely used by Bank, Fintech company and IBD for deciding whether to approve their application of card and account,  evaluating cardholder's credit, anticipating risk of default and fraud in finance, differentiating the value of bond or interest and commission rate for different applicators and even introducing typical monetization method--- ***Advertisement***.
 ### 3.About Data 
-- Data Source [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
+- Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
 ### 4.Preprocessing
+### 5.Algorithm
+![Workflow&Framework](/path/to/img.jpg "Optional title")
+#### 5.1
