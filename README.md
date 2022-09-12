@@ -15,5 +15,6 @@
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
 ### 4.Preprocessing
 ### 5.Algorithm
-![Workflow&Framework](/Adult_Income_Project-From-Scratch-/blob/main/picture/FlowDiagram.jpg)
+![Flow_diagram](picture/FlowDiagram.jpg )
+
 #### 5.1 
