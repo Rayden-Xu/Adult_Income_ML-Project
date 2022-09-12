@@ -14,7 +14,12 @@
 - Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
 ### 4.Preprocessing
+
 ### 5.Algorithm
-![Flow_diagram](picture/FlowDiagram.jpg )
+<div align=center>
+<img src="picture/FlowDiagram.jpg" width="800px">
+</div>
+
+
 
 #### 5.1 
