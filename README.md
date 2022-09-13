@@ -14,10 +14,25 @@
 - Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
 ### 4.Preprocessing
+  - EDA
+    - Using heatmap to conduct binary analysis
+    <div align=center>
+    <img src="picture/2e8cb05d-af94-4e82-82ef-66ed9881a0f7.png" width="600px">
+    </div>
+    - Using Pairplot to conduct Multivariate analysis
+    <div align=center>
+    <img src="picture/e4e412c9-b4d4-47fa-b574-70d6cf41aa32.png" width="600px">
 
 ### 5.Algorithm
+- The general workflow is that:
+  - 1st: Seting ad_df3 as Baseline(Do nothing), and seting others as controll group by different preprocessing step.
+  - 2nd: After Feature engineerning, puting all ad_dfx into 5 different algorthim,let ad_df4 alone into GNB(Gaussian assumption). 
+  - 3rd: Comparing metrics(Accuracy,recall,precision,F-1 Score).
+  - 4th: K-fold cross validation and tuning.
+  - 5th: Model selection.
+ 
 <div align=center>
-<img src="picture/FlowDiagram.jpg" width="800px">
+<img src="picture/FlowDiagram.jpg" width="600px">
 </div>
 
 
