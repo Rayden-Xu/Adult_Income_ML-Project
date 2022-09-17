@@ -3,7 +3,7 @@
 
 | **--->** [Script](/Adult_Income_Project-From-Scratch-/blob/main/Income_Classification_Final.ipynb) | 
 
-| **--->** [Project-Report](/Adult_Income_Project-From-Scratch-/blob/main/ IE7374 Final Project - Lark.pdf.ipynb) |
+| **--->** [Project-Report](/Adult_Income_Project-From-Scratch-/blob/main/IE7374%20Final%20Project%20-%20Lark) |
 
 | **--->** [Presentation-Slide](/Adult_Income_Project-From-Scratch-/blob/main/Pre-7374-final.pdf) |
 
