@@ -50,4 +50,3 @@
 <img src="picture/FlowDiagram.jpg" width="600px">
 </div>
 
-#### 7
