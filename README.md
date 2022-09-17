@@ -1,11 +1,13 @@
 # Adult_Income_ML-Project
 [![author](https://img.shields.io/badge/Author-Rayden_Xu-blue.svg)](https://www.linkedin.com/in/rundong-xu-269012230/) 
 
-| **--->** [Script](/Adult_Income_Project-From-Scratch-/blob/main/Income_Classification_Final.ipynb) | 
+**Quick Portal**
 
-| **--->** [Project-Report](/Adult_Income_Project-From-Scratch-/blob/main/IE7374%20Final%20Project%20-%20Lark) |
+| **--->** [1.Script](/Adult_Income_Project-From-Scratch-/blob/main/Income_Classification_Final.ipynb) | 
 
-| **--->** [Presentation-Slide](/Adult_Income_Project-From-Scratch-/blob/main/Pre-7374-final.pdf) |
+| **--->** [2.Project-Report](/Adult_Income_Project-From-Scratch-/blob/main/IE7374%20Final%20Project%20-%20Lark) |
+
+| **--->** [3.Presentation-Slide](/Adult_Income_Project-From-Scratch-/blob/main/Pre-7374-final.pdf) |
 
 ## 1.Introduction
 - **Objective**: Basically, in this project, the objective of this machine learning project is to predict whether a person makes over 50K a year. We are going to focus on building an 'income' classification model. All of these are the prerequisite of default risk modeling.
