@@ -80,8 +80,8 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
    * After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
   
 ## 6.Algorithm
-We apply 
-- The general workflow is that:
+We apply 5 classification and 1 dimension reduction algorithm, and **"All Algorithm Are Totally From Scratch Without Directly Using Skit-learn Package"**
+### 6.1 The general workflow is that:
   - 1st: Seting ad_df3 as Baseline(Do nothing), and seting others as controll group by different preprocessing step.
   - 2nd: After Feature engineerning, puting all ad_dfx into 5 different algorthim,let ad_df4 alone into GNB(Gaussian assumption). 
   - 3rd: Comparing metrics(Accuracy,recall,precision,F-1 Score).
@@ -92,9 +92,64 @@ We apply
 <img src="picture/FlowDiagram.jpg" width="600px">
 </div>
 
+### 6.2 Scratch And Design Idea in Coding
+#### 6.2.0 PCA
+  - (PCA) is the process of computing the principal components and using them to perform a
+change of basis on the data, sometimes using only the first few principal components and
+ignoring the rest.
+#### 6.2.1 Logistic Regression
+- 1.Advantages
+  - Simple to implement and widely used in industrial problems;
+  - The amount of calculation is very small, the speed is very fast, and the storage resources are low;
+- 2. Scratch Method
+  - the goal of LogisitcRegression is to find the weight to then apply it to the gradient descent and find the predicted label
+#### 6.2.2 KNN
+- 1.Advantages
+  - Simple, easy to understand, high precision; Insensitive to outliers; No data input settings
+  - Downside: High computational complexity and space complexity
+- 2.Design Method
+  - set the k values and calculate the euclidean distances between the sample point and all the train points.  
+  - pick top k distances and count the occurrence times of various labels in these K distances 
+  - classify the SAMPLE as the label with the most occurrence times.
+#### 6.2.3 Gaussian Naive Bayes
+- 1.Advantages
+  - The theory is mature and the thinking is simple, which can be used for both classification and regression;
+  - Can be used for nonlinear classification;
+  - The training time complexity is O(n);
+  - No assumptions about the data, high accuracy, not sensitive to outliers
+- 2.Design Method
+  - fit distribution for each feature
+  - calculate prior probability for each class 
+#### 6.2.4 Decision Tree
+- 1.Advantages
+  - Simple calculation, easy to understand and strong interpretability
+  - It is more suitable for processing samples with missing attributes;
+  - Ability to handle irrelevant features;
+  - Ability to produce feasible and well-executed results on large data sources in a relatively short period of time.
+- 2.Design Method
+  - Using GINI gain to decide where to split the dataset into two parts
+  - At each split decision, we chose that split that has the highest GINI gain. If the GINI gain is non positive, we do not perform the split.
+  - Decide where to split a numeric feature
+  - We first sort all the values to get the means between neighboring values and calculate the GINI gains with each of the means. 
+  - Recurve to create the decision tree
+
+#### 6.2.5 Random Forest
+- 1.Characteristics
+  - Usually, random forest is often the winner of many classification problems (usually a little better than support vector machine), it is fast to train and tunable, and we don't have to worry about adjusting a lot of parameters like a support vector machine, so it has always been more popular than SVM.
+  - Random forest can greatly reduce overfitting 
+- 2.Design Method
+  - Choose the number of the decision trees
+  - Suppose that we decide to grow k trees. 
+  - For each tree, we randomly sample the rows from the original dataset with replacement. 
+  - And we select a random subset of features to find the best split. 
+  - Grow the trees
+  - Use mode of the predictions of k trees to be the predicted class for test samples
+
 ## 7.Model
 ### 7.1 Comparison Perspective
 
 <div align=center>
 <img src="picture/Comparison Perspective.png" width="1000px">
 </div>
+
+### 7.2 Comparison Perspective
