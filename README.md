@@ -152,4 +152,34 @@ ignoring the rest.
 <img src="picture/Comparison Perspective.png" width="1000px">
 </div>
 
-### 7.2 Comparison Perspective
+### 7.2 Result Comparison in Metrics
+
+- All result
+
+<div align=center>
+<img src="picture/result.png" width="600px">
+</div>
+
+- Best one
+
+<div align=center>
+<img src="picture/result2.png" width="600px">
+</div>
+
+### 7.3 K-Fold Cross Validation
+
+<div align=center>
+<img src="picture/K-fold.png" width="600px">
+</div>
+
+### 7.4 Learning Curve
+
+<div align=center>
+<img src="picture/learning curve.png" width="600px">
+</div>
+
+### 7.5 Mean Acc of Train, Test
+
+<div align=center>
+<img src="picture/mean.png" width="600px">
+</div>
