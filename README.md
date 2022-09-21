@@ -16,9 +16,20 @@
 ## 2.Bussiness Value
 - All we know that We are naked in Big data society, The user information are collected in every APP and Website includes data on age, gender, country of origin, marital status,marriage, education etc.) when we login in to them.
 - Typically, all of this information(Data Asset) would be widely used by Bank, Fintech company and IBD for deciding whether to approve their application of card and account,  evaluating cardholder's credit, anticipating risk of default and fraud in finance, differentiating the value of bond or interest and commission rate for different applicators and even introducing typical monetization method--- ***Advertisement***.
+
+
+    <div align=center>
+    <img src="picture/Pic-Introduction.png" width="800px">
+    </div>
+
 ### 3.About Data 
-- Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
+#### 3.1 Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
+#### 3.2 Input Data:
+- We can see that there are 3 files:"adult.names","adult.data"and "adult.test",on Adult dataset downloaded from [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
+Therefore, We need to preprocess and merge all of 3 files into 1 dataset in order to do EDA and Feature Engineering and so on.
+Here, we use powerful tools-- Regular Expression to deal with this problem.
+
 ### 4.Preprocessing
   - EDA
     - Statistical Analysis
