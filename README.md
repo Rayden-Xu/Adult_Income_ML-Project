@@ -66,7 +66,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 ## 5.Feature Engineering
 - Work Flow
     <div align=center>
-    <img src="picture/Feature Engineerning.png" width="1000px">
+    <img src="picture/Feature Engineerning (1).png" width="1000px">
     </div>
   After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
   
