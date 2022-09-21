@@ -22,18 +22,19 @@
     <img src="picture/Pic-Introduction.png" width="800px">
     </div>
 
-### 3.About Data 
-#### 3.1 Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
+## 3.About Data 
+### 3.1 Data Source： [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 - It is the multivariable data set. And it has 48842 instances and 14 attributes. Among the15 indicators, 6 indicators are continuous indicators, and the remaining 9 indicators are discrete indicators.
-#### 3.2 Input Data:
+### 3.2 Input Data:
 - We can see that there are 3 files:"adult.names","adult.data"and "adult.test",on Adult dataset downloaded from [Adult_data_UCI](/https://archive.ics.uci.edu/ml/datasets/adult) 
 Therefore, We need to preprocess and merge all of 3 files into 1 dataset in order to do EDA and Feature Engineering and so on.
 Here, we use powerful tools-- Regular Expression to deal with this problem.
 
-### 4.Preprocessing
-#### 4.1 Processing NA Value
-#### 4.2 EDA
+## 4.Preprocessing
+### 4.1 Processing NA Value
+### 4.2 EDA
  * Statistical Analysis
+ 
       ![sta](https://user-images.githubusercontent.com/102635182/191583621-883852b9-1f54-4a4b-a5c0-099272a4a6b3.png)
      - Age: Range from 19 to 90 years, average is 37.
      - Education_num: from 1 to 16 ,the avg education level is 10 years.
@@ -62,14 +63,14 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
   - 4.Education-num： it seems high education level have more person income》=50K
   - 5.Hours-per-week: it shows that the more hours per week a person works, the more income they have.
 
-### 5.Feature Engineering
+## 5.Feature Engineering
 - Work Flow
     <div align=center>
-    <img src="picture/Feature Engineerning.png" width="700px">
+    <img src="picture/Feature Engineerning.png" width="1000px">
     </div>
   After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
   
-### 6.Algorithm
+## 6.Algorithm
 - The general workflow is that:
   - 1st: Seting ad_df3 as Baseline(Do nothing), and seting others as controll group by different preprocessing step.
   - 2nd: After Feature engineerning, puting all ad_dfx into 5 different algorthim,let ad_df4 alone into GNB(Gaussian assumption). 
@@ -81,3 +82,9 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 <img src="picture/FlowDiagram.jpg" width="600px">
 </div>
 
+## 7.Model
+#### 7.1 Comparison Perspective
+
+<div align=center>
+<img src="picture/Comparison Perspective.png" width="1000px">
+</div>
