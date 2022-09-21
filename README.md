@@ -35,6 +35,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 - We choose to use **"Mode"** value repectiely to fill the N/A value.
 ### 4.2 EDA
  * Statistical Analysis
+ 
       ![sta](https://user-images.githubusercontent.com/102635182/191583621-883852b9-1f54-4a4b-a5c0-099272a4a6b3.png)
       
      Takeaway:
@@ -70,9 +71,13 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 ## 5.Feature Engineering
 - Work Flow
     <div align=center>
-    <img src="picture/Feature Engineerning (1).png" width="1000px">
+    <img src="picture/Feature Engineerning (1).png" width="1200px">
     </div>
-  After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
+ * Output: 
+   * By applying the statistical analysis in two sample t- tests,There no difference between two group of income(>50k and<=50k) which means that the feature 'flnwgt' has no contribution to the classify income group. Therefore, we decide to drop this feature to form ad_df2
+   * Feature Discreted
+   * Label Encoded
+   * After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
   
 ## 6.Algorithm
 We apply 
