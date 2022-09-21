@@ -30,12 +30,14 @@
 Therefore, We need to preprocess and merge all of 3 files into 1 dataset in order to do EDA and Feature Engineering and so on.
 Here, we use powerful tools-- Regular Expression to deal with this problem.
 
-## 4.Preprocessing
-### 4.1 Processing NA Value
+## 4.Exploratory Descriptive Analysis(EDA)
+### 4.1 Processing N/A Value
+- We choose to use **"Mode"** value repectiely to fill the N/A value.
 ### 4.2 EDA
  * Statistical Analysis
- 
       ![sta](https://user-images.githubusercontent.com/102635182/191583621-883852b9-1f54-4a4b-a5c0-099272a4a6b3.png)
+      
+     Takeaway:
      - Age: Range from 19 to 90 years, average is 37.
      - Education_num: from 1 to 16 ,the avg education level is 10 years.
      - hours.per.week:from 1 and 99, and the average is 40 hours.
@@ -45,6 +47,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
     <img src="picture/2e8cb05d-af94-4e82-82ef-66ed9881a0f7.png" width="600px">
     </div>
     
+    Takeaway:
     - 1st: The hours-per-week are highest positive related with capital gain.
     
     - 2nd: The Educational-num are positive related with capital loss
@@ -55,6 +58,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
     <img src="picture/e4e412c9-b4d4-47fa-b574-70d6cf41aa32.png" width="600px">
     </div>
     
+  Takeaway: 
   - 1.Age:  present right-skew tendency, especially for income<=50k
   - 2.Hours-per-week: it seems to be the present standard tendency.
   - 3.Capital-gain and capital-loss:  
@@ -71,6 +75,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
   After Data Clean--> EDA --> Feature Engineerning, we have 4 dataset(ad_df, ad_df3, ad_df2, ad_df_GNB) for using.
   
 ## 6.Algorithm
+We apply 
 - The general workflow is that:
   - 1st: Seting ad_df3 as Baseline(Do nothing), and seting others as controll group by different preprocessing step.
   - 2nd: After Feature engineerning, puting all ad_dfx into 5 different algorthim,let ad_df4 alone into GNB(Gaussian assumption). 
@@ -83,7 +88,7 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 </div>
 
 ## 7.Model
-#### 7.1 Comparison Perspective
+### 7.1 Comparison Perspective
 
 <div align=center>
 <img src="picture/Comparison Perspective.png" width="1000px">
