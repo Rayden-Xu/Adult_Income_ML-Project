@@ -157,19 +157,19 @@ ignoring the rest.
 - All result
 
 <div align=center>
-<img src="picture/result.png" width="600px">
+<img src="picture/result.png" width="500px">
 </div>
 
 - Best one
 
 <div align=center>
-<img src="picture/result2.png" width="600px">
+<img src="picture/result2.png" width="500px">
 </div>
 
 ### 7.3 K-Fold Cross Validation
 
 <div align=center>
-<img src="picture/K-fold.png" width="600px">
+<img src="picture/K-fold.png" width="500px">
 </div>
 
 ### 7.4 Learning Curve
@@ -181,5 +181,5 @@ ignoring the rest.
 ### 7.5 Mean Acc of Train, Test
 
 <div align=center>
-<img src="picture/mean.png" width="600px">
+<img src="picture/mean.png" width="500px">
 </div>
