@@ -45,13 +45,15 @@ Here, we use powerful tools-- Regular Expression to deal with this problem.
 ### 4.1 Processing N/A Value
 - Among features, the 'workclass', 'occupation', 'native-country'  contain N/A Values.
 
- ![NA:value](https://user-images.githubusercontent.com/102635182/192638363-6d7707d0-d89f-4185-a050-20efcf128318.png)
+ ![NA:value](picture/NA:value.png)
+
+
 
 - Typically, we choose to use **"Mode"** value respectively to fill these N/A values.
 ### 4.2 EDA
  * Statistical Analysis
  
-      ![sta](https://user-images.githubusercontent.com/102635182/191583621-883852b9-1f54-4a4b-a5c0-099272a4a6b3.png)
+      ![sta](picture/sta.png)
       
   * Takeaway:
      - Age: Range from 19 to 90 years, the average is 37.
